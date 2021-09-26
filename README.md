@@ -1,4 +1,4 @@
-# eXtended Coop Controller: An Automated Chicken Coop Controller
+# eXtended Coop Controller
 Control chicken coop with ESP8266 - Door, Hen Light, Coop Light, Heater, Fan, water .... 
 
 ## Features
