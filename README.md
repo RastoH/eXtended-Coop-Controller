@@ -89,3 +89,6 @@ If you open the door manually with the pushbutton in the evening when the system
 - D5  	action switch
 - D6	door bottom switch
 - D7	door top switch
+
+## Demo
+[![DEMO](http://img.youtube.com/vi/uT8rBUs3wm0/0.jpg)](https://youtu.be/uT8rBUs3wm0) 
