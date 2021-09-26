@@ -65,12 +65,27 @@ If you open the door manually with the pushbutton in the evening when the system
 
 
 ## Components
-- ESP8266 board (Wemos D1 mini)
-- I2C dual motor driver shield
+- ESP8266 board [LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html)
+- I2C motor driver shield
+	- WEMOS v1
+	- [LOLIN v2 (tested)](https://www.wemos.cc/en/latest/d1_mini_shield/motor.html)
+	- drv8830
 - DS18B20 - Inside, outside, water temp
 - LDR or bh1750 - ambient light intensity
+- DS3231 RTC module
 - Led strip 12v for Coop and Hen light
-- Mosfet N channel (can use ULN2003 if using short led strip/ low ampere)
-- 12V Power supply
-- 5V power supply (or use step down 12v to 5v)
+- 12V Power supply (12V 10Ah batery + 40W solar)
+- [DC Power Shield](https://www.wemos.cc/en/latest/d1_mini_shield/dc_power.html)
 - Box (optional) 
+- low speed gear motor with long output shaft 25mmx4mm 25GA370, 12V, 35 RPM
+- magnetic red switches
+
+## Pin
+- A0 - LDR
+- D1	SCL I2C
+- D2	SDA I2C
+- D3	OneWire bus -> for DS18B20
+- D4    builtin led
+- D5  	action switch
+- D6	door bottom switch
+- D7	door top switch
