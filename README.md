@@ -12,13 +12,13 @@ Control chicken coop with ESP8266 - Door, Hen Light, Coop Light, Heater, Fan, wa
 	- freeze protect temperature
 - Quarantine
 	- quarantine end date
-- Coop fan
-- Coop heat
 - Hen light
 - Coop light
+- Coop fan
+- Coop heat
 
 Door operation settings are programmable using Web App or REST-like API over the Internet by connecting to the xCctrl WiFi Module.
-- Override your coop door Select Open, Close or Stop from the user menu.
+- Override your coop door Select Open, Close or Stop from the interface.
 
 ## Web App
 
@@ -43,8 +43,7 @@ There are many things to think about when keeping chickens. You have to get up w
 
 You have to give them water and feed them every day. I am trying to lessen the workload with automation.
 
-
-The sunrise and sunset times in automatic mode are calculated every day on 0:00 from actual system date, these times are then used to open and close the door automatically.
+The sunrise and sunset times in automatic mode are calculated every day on 0:00 from actual system date, these times are then used to open and close the door automatically. (required DS3231 or NTP)
 
 The inside temperature,outside temperature and ambient light are measured every minute, these values are then uploaded to ThingSpeak.  
 
@@ -56,12 +55,11 @@ A heat lamp (heater) is turned on if the coop gets too cold and a fan is turned 
 
 All of the communication with the user is done through a website run on the ESP8266.
  
-The user can open and close the door, turn a light on or off, /*watch the stream from a camera in the coop, and feed the chickens */from here.
-Finally, there is a separate web app run using nodeJS where the user can graph a specific range of environment measurements. This is achieved using ThingSpeak setver.
+The user can open and close the door, turn a light on or off, , and feed the chickens from here.
 
+Environment measurements is achieved using ThingSpeak setver.
 
-
-If you open the door manually with the pushbutton in the evening when the system thinks it should be closed, the door will remain open for 2 minutes before it will automatically close
+If you open the door manually with the pushbutton in the evening when the system thinks it should be closed, the door will remain open for max 1 minuts before it will automatically close
 
 
 ## Components
@@ -81,14 +79,17 @@ If you open the door manually with the pushbutton in the evening when the system
 - magnetic red switches
 
 ## Pin
-- A0    LDR
+- A0    LDR (to 3.3V)
 - D1	SCL I2C
 - D2	SDA I2C
-- D3	OneWire bus -> for DS18B20
-- D4    builtin led
-- D5  	action switch
-- D6	door bottom switch
-- D7	door top switch
+- D3	OneWire bus -> for DS18B20 
+- D4    builtin led (reverse polaryty to 3.3V)
+- D5  	action switch (to GND)
+	- short - open, stop, close door
+	- pressed for min 3 sec - turn acess poit (AP) on
+	- pressed for 10 sec - reset to factory settings 
+- D6	door bottom switch (to GND)
+- D7	door top switch (to GND)
 
 ## Demo
 [![DEMO](http://img.youtube.com/vi/uT8rBUs3wm0/0.jpg)](https://youtu.be/uT8rBUs3wm0) 
