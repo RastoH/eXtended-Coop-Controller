@@ -2,7 +2,6 @@
 Control chicken coop with ESP8266 - Door, Hen Light, Coop Light, Heater, Fan, water .... 
 
 ## Features
-
 - Door modes
 	- Manual
 	- Light - Dusk-to-Dawn (a.k.a. Dawn-to-Dusk) (LUX) (LDR on A0 or bh1750 on I2C bus)
@@ -24,19 +23,20 @@ Door operation settings are programmable using Web App or REST-like API over the
 ## Web App
 
 ### Real-time status information (Web App)
- Date and Time
- Outside, Indoor, Water Temperature
- Ambient Light Value (0% - total darknes to 100% - sunlight shining on sensor)
- Door Control Settings
- Freeze Protect Settings
- Door Status
- System Status
+ - Date and Time
+ - Outside, Indoor, Water Temperature
+ - Ambient Light Value (0% - total darknes to 100% - sunlight shining on sensor)
+ - Door Control Settings
+ - Freeze Protect Settings
+ - Door Status
+ - System Status
  
-
 ### System configuration (WEB) 
- - Security, NTP, RTC, DST, DST region - EU or US
+ - Security
+ - NTP, RTC, DST, DST region - EU or US
  - WiFi network
- - ThingSpeak, Dynamic DNS
+ - [ThingSpeak](https://thingspeak.com/channels/636967)
+ - Dynamic DNS
  
 ### Proposal
 There are many things to think about when keeping chickens. You have to get up with the sunrise to let them out and put them in at sunset. 
@@ -81,7 +81,7 @@ If you open the door manually with the pushbutton in the evening when the system
 - magnetic red switches
 
 ## Pin
-- A0 - LDR
+- A0    LDR
 - D1	SCL I2C
 - D2	SDA I2C
 - D3	OneWire bus -> for DS18B20
