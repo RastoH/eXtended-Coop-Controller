@@ -9,14 +9,13 @@ Control chicken coop with ESP8266 - Door, Hen Light, Coop Light, Heater, Fan, wa
 	- Time (Schedule)
 	- Automatic - Calculated Sunset and Sunrise times
 - Freeze Protect
-* Door stays closed on those winter days when it is dangerously cold - ensuring the safety of your poultry investment.
+	- Door stays closed on those winter days when it is dangerously cold - ensuring the safety of your poultry investment.
 	- freeze protect temperature
 - Quarantine
 	- quarantine end date
 - Coop fan
 - Coop heat
 - Hen light
-
 - Coop light
 
 Door operation settings are programmable using Web App or REST-like API over the Internet by connecting to the xCctrl WiFi Module.
