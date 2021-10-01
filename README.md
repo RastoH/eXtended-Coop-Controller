@@ -1,12 +1,12 @@
 # eXtended Coop Controller
-Control chicken coop with ESP8266 - Door, Hen Light, Coop Light, Heater, Fan, water .... 
+Control chicken coop with ESP8266 - automatic chicken coop door, Hen Light, Coop Light, Heater, Fan, water .... 
 
 ## Features
 - Door modes
 	- Manual
 	- Light - Dusk-to-Dawn (a.k.a. Dawn-to-Dusk) (LUX) (LDR on A0 or bh1750 on I2C bus)
 	- Time (Schedule)
-	- Automatic - Calculated Sunset and Sunrise times
+	- Automatic - Calculated Sunset and Sunrise times for latitude/longitude
 - Freeze Protect
 	- Door stays closed on those winter days when it is dangerously cold - ensuring the safety of your poultry investment.
 	- freeze protect temperature
