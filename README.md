@@ -45,6 +45,13 @@ You have to give them water and feed them every day. I am trying to lessen the w
 
 The sunrise and sunset times in automatic mode are calculated every day on 0:00 from actual system date, these times are then used to open and close the door automatically. (required DS3231 or NTP)
 
+- Control the door and check how much water is left through a basic website hosted on the chip itself (HTML, and RESTful)
+- Prevent over-closing or over-opening
+- Can recover from power cut outs
+- Can recover from wifi chip reboots or network disruption
+- Flash LED every few seconds to indicate that the door is closed
+- Fox proof: Can’t be pushed open while closed
+
 The inside temperature,outside temperature and ambient light are measured every minute, these values are then uploaded to ThingSpeak.  
 
 A heat lamp (heater) is turned on if the coop gets too cold and a fan is turned on if it gets too hot.
