@@ -100,3 +100,5 @@ If you open the door manually with the pushbutton in the evening when the system
 
 ## Demo
 [![DEMO](http://img.youtube.com/vi/uT8rBUs3wm0/0.jpg)](https://youtu.be/uT8rBUs3wm0) 
+
+This licence expressly prohibits commercial use
