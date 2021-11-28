@@ -64,7 +64,7 @@ All of the communication with the user is done through a website run on the ESP8
  
 The user can open and close the door, turn a light on or off, , and feed the chickens from here.
 
-Environment measurements is achieved using ThingSpeak setver.
+Environment measurements is achieved using ThingSpeak server.
 
 If you open the door manually with the pushbutton in the evening when the system thinks it should be closed, the door will remain open for max 1 minuts before it will automatically close
 
@@ -83,7 +83,7 @@ If you open the door manually with the pushbutton in the evening when the system
 - [DC Power Shield](https://www.wemos.cc/en/latest/d1_mini_shield/dc_power.html)
 - Box (optional) 
 - low speed gear motor with long output shaft 25mmx4mm 25GA370, 12V, 35 RPM
-- magnetic red switches
+- magnetic reed switches
 
 ## Pin
 - A0    LDR (to 3.3V)
@@ -95,10 +95,10 @@ If you open the door manually with the pushbutton in the evening when the system
 	- short - open, stop, close door
 	- pressed for min 3 sec - turn acess poit (AP) on
 	- pressed for 10 sec - reset to factory settings 
-- D6	door bottom switch (to GND)
-- D7	door top switch (to GND)
+- D6	door bottom reed switch (to GND)
+- D7	door top reed switch (to GND)
 
 ## Demo
 [![DEMO](http://img.youtube.com/vi/uT8rBUs3wm0/0.jpg)](https://youtu.be/uT8rBUs3wm0) 
 
-This licence expressly prohibits commercial use
+[This licence expressly prohibits commercial use](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
