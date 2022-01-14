@@ -73,8 +73,8 @@ If you open the door manually with the pushbutton in the evening when the system
 - ESP8266 board [LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html)
 - I2C motor driver shield
 	- WEMOS v1
-	- [LOLIN v2 (tested)](https://www.wemos.cc/en/latest/d1_mini_shield/motor.html)
-	- drv8830
+	- [LOLIN v2 (tested)](https://www.wemos.cc/en/latest/d1_mini_shield/motor.html),[AT8870 Motor Shield](https://www.wemos.cc/en/latest/d1_mini_shield/at8870_motor.html),[HR8833 Motor Shield](https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html)
+	- drv8830 (deprecated)
 - DS18B20 - Inside, outside, water temp
 - LDR or bh1750 - ambient light intensity
 - DS3231 RTC module
