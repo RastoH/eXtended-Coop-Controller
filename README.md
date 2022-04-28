@@ -22,6 +22,8 @@ Door operation settings are programmable using Web App or REST-like API over the
 
 ## Web App
 
+(https://youtu.be/7vjaf9kmC74)
+
 ### Real-time status information (Web App)
  - Date and Time
  - Outside, Indoor, Water Temperature
