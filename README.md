@@ -79,9 +79,9 @@ If you open the door manually with the pushbutton in the evening when the system
 	- drv8830 (deprecated)
 - DS18B20 - Inside, outside, water temp
 - LDR or bh1750 - ambient light intensity
-- DS3231 RTC module
+- DS3231 RTC module (or DS3232)
 - Led strip 12v for Coop and Hen light
-- 12V Power supply (12V 10Ah batery + 40W solar)
+- 12V Power supply (12V 10Ah batery + 40W solar panel)
 - [DC Power Shield](https://www.wemos.cc/en/latest/d1_mini_shield/dc_power.html)
 - Box (optional) 
 - low speed gear motor with long output shaft 25mmx4mm 25GA370, 12V, 35 RPM
@@ -92,7 +92,7 @@ If you open the door manually with the pushbutton in the evening when the system
 - D1	SCL I2C
 - D2	SDA I2C
 - D3	OneWire -> DS18B20 - OneWire requires a single 4.7K pullup resistor, connected between the pin and your power supply. When using very long wires, or with counterfeit DS18B20 chips and 3.3V power, a resistor in the 1K to 2.7K range may be required. 
-- D4    builtin led (reverse polaryty to 3.3V)
+- D4    builtin led (reverse polarity to 3.3V)
 - D5  	action switch (to GND)
 	- short - open, stop, close door
 	- pressed for min 3 sec - turn acess poit (AP) on
