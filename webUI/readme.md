@@ -1,25 +1,48 @@
 ## REST API
 
 /state
+GET
+  state info
 
-/settings  - door settings
+/settings
+GET
+  door settings
 
-/config    - controller config
+/config
+GET
+  controller config
 
-/accessory - accessory settring
+/accessory
+GET
+  accessory settings
 
 /wifi
-
 /rescan
+GET
+  wifi info
 
 /thngspk
+GET
+  ThingSpeak config, info
 
 /info
+GET
+  xctrl info
 
 /update
+  OTA, update firmware, filesystem page
 
 /reset
+  reset to factory dwfault
 
 /restart
+  restart system
 
 /log
+/logold
+GET
+  loger file for debug
+
+/crash
+GET
+  crash info
