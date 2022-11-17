@@ -74,11 +74,11 @@ If you open the door manually with the pushbutton in the evening when the system
 ## Components
 - ESP8266 board [LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html)
 - I2C motor driver shield
-	- WEMOS v1
+	- WEMOS v1 (not tested, buggy, needs new firmware)
 	- [LOLIN v2 (tested)](https://www.wemos.cc/en/latest/d1_mini_shield/motor.html), [AT8870 Motor Shield](https://www.wemos.cc/en/latest/d1_mini_shield/at8870_motor.html), [HR8833 Motor Shield](https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html)
 	- drv8830 (deprecated)
-- DS18B20 - Inside, outside, water temp
-- LDR or bh1750 - ambient light intensity
+- DS18B20 - outside, indoor, watter temperatures
+- LDR - ambient light intensity
 - DS3231 RTC module (or DS3232)
 - Led strip 12v for Coop and Hen light
 - 12V Power supply (12V 10Ah batery + 40W solar panel)
@@ -88,17 +88,17 @@ If you open the door manually with the pushbutton in the evening when the system
 - magnetic reed switches
 
 ## Pin
-- A0    LDR (to 3.3V)
-- D1 (GPIO5)	SCL I2C
-- D2 (GPIO4)	SDA I2C
-- D3 (GPIO0)	OneWire -> DS18B20 - OneWire requires a single 4.7K pullup resistor, connected between the pin and your power supply. When using very long wires, or with counterfeit DS18B20 chips and 3.3V power, a resistor in the 1K to 2.7K range may be required. 
-- D4 (GPIO2)	builtin led (reverse polarity to 3.3V)
-- D5 (GPIO14)	action switch (to GND)
+- A0	LDR (to 3.3V), I don't use it, not fully tested
+- D1 (GPIO5)	SCL I2C (for DS3231RTC, motor driver)
+- D2 (GPIO4)	SDA I2C (for DS3231RTC, motor driver)
+- D3 (GPIO0)	OneWire -> DS18B20 - OneWire requires a single 4.7K pullup resistor, connected between the pin and your power supply. When using very long wires, or with counterfeit DS18B20 chips and 3.3V power, a resistor in the 1K to 2.7K range may be required (i use 4k7 resistor).
+- D4 (GPIO2)	builtin led (reverse, connected to 3.3V)
+- D5 (GPIO14)	action switch (to GND, internal pullup)
 	- short - open, stop, close door
 	- pressed for min 3 sec - turn acess poit (AP) on
 	- pressed for 10 sec - reset to factory settings 
-- D6 (GPIO12)	door bottom reed switch (to GND)
-- D7 (GPIO13)	door top reed switch (to GND)
+- D6 (GPIO12)	door bottom reed switch (to GND, internal pullup)
+- D7 (GPIO13)	door top reed switch (to GND, internal pullup)
 
 ## Demo
 [![DEMO](http://img.youtube.com/vi/uT8rBUs3wm0/0.jpg)](https://youtu.be/uT8rBUs3wm0) 
