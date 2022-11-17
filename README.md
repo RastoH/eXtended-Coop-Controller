@@ -89,16 +89,16 @@ If you open the door manually with the pushbutton in the evening when the system
 
 ## Pin
 - A0    LDR (to 3.3V)
-- D1	SCL I2C
-- D2	SDA I2C
-- D3	OneWire -> DS18B20 - OneWire requires a single 4.7K pullup resistor, connected between the pin and your power supply. When using very long wires, or with counterfeit DS18B20 chips and 3.3V power, a resistor in the 1K to 2.7K range may be required. 
-- D4    builtin led (reverse polarity to 3.3V)
-- D5  	action switch (to GND)
+- D1 (GPIO5)	SCL I2C
+- D2 (GPIO4)	SDA I2C
+- D3 (GPIO0)	OneWire -> DS18B20 - OneWire requires a single 4.7K pullup resistor, connected between the pin and your power supply. When using very long wires, or with counterfeit DS18B20 chips and 3.3V power, a resistor in the 1K to 2.7K range may be required. 
+- D4 (GPIO2)	builtin led (reverse polarity to 3.3V)
+- D5 (GPIO14)	action switch (to GND)
 	- short - open, stop, close door
 	- pressed for min 3 sec - turn acess poit (AP) on
 	- pressed for 10 sec - reset to factory settings 
-- D6	door bottom reed switch (to GND)
-- D7	door top reed switch (to GND)
+- D6 (GPIO12)	door bottom reed switch (to GND)
+- D7 (GPIO13)	door top reed switch (to GND)
 
 ## Demo
 [![DEMO](http://img.youtube.com/vi/uT8rBUs3wm0/0.jpg)](https://youtu.be/uT8rBUs3wm0) 
