@@ -79,7 +79,7 @@ If you open the door manually with the pushbutton in the evening when the system
 	- drv8830 (deprecated)
 - DS18B20 - outside, indoor, watter temperatures
 - LDR - ambient light intensity
-- DS3231 RTC module (or DS3232)
+- DS3231 RTC module (or DS3232) (NTP sync)
 - Led strip 12v for Coop and Hen light
 - 12V Power supply (12V 10Ah batery + 40W solar panel)
 - [DC Power Shield](https://www.wemos.cc/en/latest/d1_mini_shield/dc_power.html)
