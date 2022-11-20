@@ -4,9 +4,9 @@ Control chicken coop with ESP8266 - automatic chicken coop door, Hen Light, Coop
 ## Features
 - Door modes
 	- Manual
-	- Light - Dusk-to-Dawn (a.k.a. Dawn-to-Dusk) (LUX) (LDR on A0 or bh1750 on I2C bus)
+	- Light - Dusk-to-Dawn (a.k.a. Dawn-to-Dusk) (LUX) (LDR on A0 or (bh1750 on I2C bus -> deprecated))
 	- Time (Schedule)
-	- Automatic - Calculated Sunset and Sunrise times for latitude/longitude
+	- Automatic - Calculated Sunset and Sunrise times for latitude/longitude -> my favorite ;)
 - Freeze Protect
 	- Door stays closed on those winter days when it is dangerously cold - ensuring the safety of your poultry investment.
 	- freeze protect temperature
@@ -16,6 +16,7 @@ Control chicken coop with ESP8266 - automatic chicken coop door, Hen Light, Coop
 - Coop light
 - Coop fan
 - Coop heat
+- Watter heat
 
 Door operation settings are programmable using Web App or REST-like API over the Internet by connecting to the xCctrl WiFi Module.
 - Override your coop door Select Open, Close or Stop from the interface.
@@ -38,7 +39,7 @@ Door operation settings are programmable using Web App or REST-like API over the
  - NTP, RTC, DST, DST region - EU or US
  - WiFi network
  - [ThingSpeak](https://thingspeak.com/channels/636967)
- - Dynamic DNS
+ - Dynamic DNS (problem with my provider)
  
 ### Proposal
 There are many things to think about when keeping chickens. You have to get up with the sunrise to let them out and put them in at sunset. 
@@ -74,12 +75,12 @@ If you open the door manually with the pushbutton in the evening when the system
 ## Components
 - ESP8266 board [LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html)
 - I2C motor driver shield
-	- WEMOS v1 (not tested, buggy, needs new firmware)
+	- WEMOS v1 (not tested, buggy, needs flash new firmware)
 	- [LOLIN v2 (tested)](https://www.wemos.cc/en/latest/d1_mini_shield/motor.html), [AT8870 Motor Shield](https://www.wemos.cc/en/latest/d1_mini_shield/at8870_motor.html), [HR8833 Motor Shield](https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html)
-	- drv8830 (deprecated)
+	- drv8830 (tested, deprecated)
 - DS18B20 - outside, indoor, watter temperatures
 - LDR - ambient light intensity
-- DS3231 RTC module (or DS3232) (NTP sync)
+- DS3231 RTC module (or DS3232) (NTP synced)
 - Led strip 12v for Coop and Hen light
 - 12V Power supply (12V 10Ah batery + 40W solar panel)
 - [DC Power Shield](https://www.wemos.cc/en/latest/d1_mini_shield/dc_power.html)
@@ -88,9 +89,9 @@ If you open the door manually with the pushbutton in the evening when the system
 - magnetic reed switches
 
 ## Pin
-- A0	LDR (to 3.3V), I don't use it, not fully tested
-- D1 (GPIO5)	SCL I2C (for DS3231RTC, motor driver)
-- D2 (GPIO4)	SDA I2C (for DS3231RTC, motor driver)
+- A0	LDR (to 3.3V, resistor 22k to GND), I don't use it, not fully tested
+- D1 (GPIO5)	SCL I2C (for DS3231RTC, motor drivers)
+- D2 (GPIO4)	SDA I2C (for DS3231RTC, motor drivers)
 - D3 (GPIO0)	OneWire -> DS18B20 - OneWire requires a single 4.7K pullup resistor, connected between the pin and your power supply. When using very long wires, or with counterfeit DS18B20 chips and 3.3V power, a resistor in the 1K to 2.7K range may be required (i use 4k7 resistor).
 - D4 (GPIO2)	builtin led (reverse, connected to 3.3V)
 - D5 (GPIO14)	action switch (to GND, internal pullup)
