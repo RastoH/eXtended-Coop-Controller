@@ -76,10 +76,11 @@ If you open the door manually with the pushbutton in the evening when the system
 - ESP8266 board [LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html)
 - I2C motor driver shield
 	- WEMOS v1 (not tested, buggy, needs flash new firmware)
-	- [LOLIN v2 (tested)](https://www.wemos.cc/en/latest/d1_mini_shield/motor.html), [AT8870 Motor Shield](https://www.wemos.cc/en/latest/d1_mini_shield/at8870_motor.html), [HR8833 Motor Shield](https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html)
+	- [LOLIN v2 (tested) 15V max, 1.2A(average) / 3.2A (peak)](https://www.wemos.cc/en/latest/d1_mini_shield/motor.html), [AT8870 Motor Shield, 6.5-38V, 2A(average) / 3.6A (peak)](https://www.wemos.cc/en/latest/d1_mini_shield/at8870_motor.html), [HR8833 Motor Shield, 3-10V, 1.5A(average) / 2.5A (peak)](https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html)
 	- drv8830 (tested, deprecated)
 - DS18B20 - outside, indoor, watter temperatures
 - LDR - ambient light intensity
+- [OLED 0.96 Shield (128x64 pixels) only in DEV version](https://www.wemos.cc/en/latest/d1_mini_shield/oled_0_96.html)
 - DS3231 RTC module (or DS3232) (NTP synced)
 - Led strip 12v for Coop and Hen light
 - 12V Power supply (12V 10Ah batery + 40W solar panel)
