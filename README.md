@@ -39,7 +39,7 @@ Door operation settings are programmable using Web App or REST-like API over the
  - NTP, RTC, DST, DST region - EU or US
  - WiFi network
  - [ThingSpeak](https://thingspeak.com/channels/636967)
- - Dynamic DNS (problem with my provider)
+ - Dynamic DNS (problem with my provider) in DEV version
  
 ### Proposal
 There are many things to think about when keeping chickens. You have to get up with the sunrise to let them out and put them in at sunset. 
@@ -48,24 +48,24 @@ You have to give them water and feed them every day. I am trying to lessen the w
 
 The sunrise and sunset times in automatic mode are calculated every day on 0:00 from actual system date, these times are then used to open and close the door automatically. (required DS3231 or NTP)
 
-- Control the door and check how much water is left through a basic website hosted on the chip itself (HTML, and RESTful)
+- Control the door ~~and check how much water is left -> moved to feeder~~ through a basic website hosted on the chip itself (HTML, and RESTful)
 - Prevent over-closing or over-opening
 - Can recover from power cut outs
 - Can recover from wifi chip reboots or network disruption
 - Flash LED every few seconds to indicate that the door is closed
-- Fox proof: Can’t be pushed open while closed
+- Predator proof: Can’t be automaticaly open while closed
 
-The inside temperature,outside temperature and ambient light are measured every minute, these values are then uploaded to ThingSpeak.  
+The inside temperature,outside, watter temperature and ambient light are measured every second, these values are then uploaded every minute to ThingSpeak.  
 
 A heat lamp (heater) is turned on if the coop gets too cold and a fan is turned on if it gets too hot.
- - kurenie sa zapne pri nizkej vnutornej teplote a zatvorenych dvierkach.
- - vetranie za zapne, ak bude vonkajsia teplota nizsia ako vnutorna a dvierka su otvorene.
+ - heating is turned on if door is closed (or "even with the door is open" is turned on).
+ - vent fan cooler is turned on only if door is open and outside temperature is lower as indoor temperature.
 
-* There is an automatic watering system that always keeps the chickens supply topped up.
+~~* There is an automatic watering system that always keeps the chickens supply topped up. -> moved to feeder~~
 
 All of the communication with the user is done through a website run on the ESP8266.
  
-The user can open and close the door, turn a light on or off, , and feed the chickens from here.
+The user can open and close the door, turn a light, fan, heater on or off ~~, and feed the chickens from here. -> moved to feeder~~
 
 Environment measurements is achieved using ThingSpeak server.
 
