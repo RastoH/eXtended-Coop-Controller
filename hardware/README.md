@@ -37,7 +37,9 @@ Turn off, add second board and turn on. Addres stay 0x30.
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/motor.jpg)
 
 ## 2.1 Wemos motor shield V1 (TB6612FNG)
-
+### discontinued
+ - Power supply voltage: VM=2.5VDC to 15.0V max
+ - Output current: Iout=1.2A(average) / 3.2A (peak)
 ![1](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/Motorshields.png)
 ![2](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/motor_v1.0.0_set.jpg?raw=true)
 ### Video of the driver's work:
@@ -78,20 +80,23 @@ GND|-|-|GND
 
 ## 2.2 LOLIN motor shield V2 (TB6612FNG)
 ### firmware revision 1
-
+ - Power supply voltage: VM=15V max (2.5VDC to 15.0V max)
+ - Output current: Iout=1.2A(average) / 3.2A (peak)
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/motor_v2.0.0_1_16x16.jpg)
 https://www.wemos.cc/en/latest/d1_mini_shield/motor.html
 
 ## 2.3 LOLIN motor shield V2 (HR8833)
 ### firmware revision 3
-
+ - Power supply voltage: VM=3-10V
+ - Output current: Iout=1.5A(average) / 2.5A (peak)
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/hr8833_v1.0.0_1_16x16.jpg)
 https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html   
 https://aliexpress.com/item/1005003697301523.html   
 
 ## 2.4 LOLIN motor shield V2 (AT8870)
 ### firmware revision 4
-
+ - Power supply voltage: VM=6.5-38V
+ - Output current: Iout=2A(average) / 3.6A (peak)
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/at8870_v1.0.0_1_16x16.jpg)   
 https://www.wemos.cc/en/latest/d1_mini_shield/at8870_motor.html   
 https://aliexpress.com/item/1005003800396010.html   
