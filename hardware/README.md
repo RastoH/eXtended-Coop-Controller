@@ -31,7 +31,7 @@ GND 	- 	- 	GND
 
 !!! After finishing the firmware, disconnect all wires (including the 3V and RTS pin), connect the shield to the ESP device and it should work!
 
-
+https://github.com/TrDA-hab/Projects/tree/master/DC_motor
 
 LOLIN motor shield V2
     firmware 2: TB6612FNG
