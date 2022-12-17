@@ -15,6 +15,9 @@ Turn off, add second board and turn on. Addres stay 0x30.
      - 1 is used for water heater
      - 2 is for feeder
 
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/mozok.jpg)
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/motor.jpg)
+
 # 1. Wemos motor shield V1 (TB6612FNG)
 
 ![1](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/Motorshields.png)
