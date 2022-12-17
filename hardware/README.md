@@ -1,3 +1,19 @@
+# 0. Installation, connection
+
+Connect first shield, turn on, addres will be changed from 0x30 to 0x2D.
+
+Turn off, add second board and turn on. Addres stay 0x30.
+
+ - First shield 
+   - channel A 1-2 is used for motor.
+   - channel B is useb for leds, hen light has higher priority als coop light
+ - Second shield
+   - channel A
+     - 1 si used for fan
+     - 2 is used for heater
+   - channel B
+     - 1 is used for water heater
+     - 2 is for feeder
 
 # 1. Wemos motor shield V1 (TB6612FNG)
 
@@ -40,20 +56,20 @@ GND|-|-|GND
 **!!! After finishing the firmware, disconnect all wires (including the 3V and RTS pin), connect the shield to the ESP device and it should work!**
 
 # 2. LOLIN motor shield V2 (TB6612FNG)
-### firmware version 2
+### firmware revision 1
 
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/motor_v2.0.0_1_16x16.jpg)
 https://www.wemos.cc/en/latest/d1_mini_shield/motor.html
 
 # 3. LOLIN motor shield V2 (HR8833)
-### firmware version 3
+### firmware revision 3
 
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/hr8833_v1.0.0_1_16x16.jpg)
 https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html   
 https://aliexpress.com/item/1005003697301523.html   
 
 # 4. LOLIN motor shield V2 (AT8870)
-### firmware version 4
+### firmware revision 4
 
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/at8870_v1.0.0_1_16x16.jpg)   
 https://www.wemos.cc/en/latest/d1_mini_shield/at8870_motor.html   
