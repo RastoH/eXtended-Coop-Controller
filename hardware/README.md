@@ -1,6 +1,7 @@
 
 # 1. Wemos motor shield V1 (TB6612FNG)
 
+![1](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/Motorshields.png)
 ### Video of the driver's work:
  - https://youtu.be/gah3zCJPPUc  
  - https://youtu.be/8P2wTgeavdo  
