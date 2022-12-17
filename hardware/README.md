@@ -1,4 +1,22 @@
-# 0. Installation, connection
+# 1. Switches, sensors
+## 1.1 magnetic reed switches
+ - D7 (GPIO13) door top reed switch (to GND, internal pullup)
+ - D6 (GPIO12) door bottom reed switch (to GND, internal pullup)
+
+## 1.2 temperature sensors
+D3 (GPIO0) OneWire -> DS18B20 - OneWire requires a single 4.7K pullup resistor, connected between the pin and your power supply. When using very long wires, or with counterfeit DS18B20 chips and 3.3V power, a resistor in the 1K to 2.7K range may be required (i use 4k7 resistor).
+
+## 1.3 action switch
+D5 (GPIO14) action switch (to GND, internal pullup)
+   - short - open, stop, close door
+   - pressed for min 3 sec - turn acess poit (AP) on
+   - pressed for 10 sec - reset to factory settings
+   
+## 1.4 LDR sensor
+
+
+# 2. Motor shield
+## 2.0 Installation, connection
 
 Connect first shield, turn on, addres will be changed from 0x30 to 0x2D.
 
@@ -18,7 +36,7 @@ Turn off, add second board and turn on. Addres stay 0x30.
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/mozok.jpg)
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/motor.jpg)
 
-# 1. Wemos motor shield V1 (TB6612FNG)
+## 2.1 Wemos motor shield V1 (TB6612FNG)
 
 ![1](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/Motorshields.png)
 ![2](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/motor_v1.0.0_set.jpg?raw=true)
@@ -58,20 +76,20 @@ GND|-|-|GND
   
 **!!! After finishing the firmware, disconnect all wires (including the 3V and RTS pin), connect the shield to the ESP device and it should work!**
 
-# 2. LOLIN motor shield V2 (TB6612FNG)
+## 2.2 LOLIN motor shield V2 (TB6612FNG)
 ### firmware revision 1
 
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/motor_v2.0.0_1_16x16.jpg)
 https://www.wemos.cc/en/latest/d1_mini_shield/motor.html
 
-# 3. LOLIN motor shield V2 (HR8833)
+## 2.3 LOLIN motor shield V2 (HR8833)
 ### firmware revision 3
 
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/hr8833_v1.0.0_1_16x16.jpg)
 https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html   
 https://aliexpress.com/item/1005003697301523.html   
 
-# 4. LOLIN motor shield V2 (AT8870)
+## 2.4 LOLIN motor shield V2 (AT8870)
 ### firmware revision 4
 
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/at8870_v1.0.0_1_16x16.jpg)   
