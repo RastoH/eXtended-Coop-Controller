@@ -16,7 +16,7 @@ Control chicken coop with ESP8266 - automatic chicken coop door, Hen Light, Coop
 - Coop light
 - Coop fan
 - Coop heat
-- Watter heat
+- Water heat
 
 Door operation settings are programmable using Web App or REST-like API over the Internet by connecting to the xCctrl WiFi Module.
 - Override your coop door Select Open, Close or Stop from the interface.
