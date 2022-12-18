@@ -33,6 +33,22 @@ Door operation settings are programmable using Web App or REST-like API over the
  - Freeze Protect Settings
  - Quarantine
  - Door Status
+  	- Open
+        - is Opening
+        - Opening...
+        - Closed
+        - is Closing
+        - Closing...
+        - Ajar
+        - ERROR short switches
+        - ERROR Timeout
+        - ERROR Reopening
+        - ERROR Door Fall!
+        - ERROR Open Timeout
+        - ERROR Close Timeout
+        - WARNING door not closed PREDATOR?
+        - MOTOR ERROR motor not installed?
+        - ERROR Door jammed!
  - System Status
  
 ### System configuration (WEB)
