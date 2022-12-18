@@ -24,15 +24,21 @@ Turn off, add second board and turn on. Addres stay 0x30.
 
  - First shield 
    - channel A 1-2 is used for motor.
-   - channel B is useb for leds, hen light has higher priority als coop light
+   - channel B is used for leds, hen light has higher priority als coop light
+    - 1 -> coop light -> GND
+    - 2 -> hen light -> GND
  - Second shield
    - channel A
      - 1 si used for fan
+      - 1 -> fan -> GND
      - 2 is used for heater
+      - 2 -> heater -> GND
    - channel B
      - 1 is used for water heater
-     - 2 is for feeder
-
+      - 1 -> wtr heater -> GND 
+     - 2 is for feeder (beta testing)
+      - 2 -> feeder -> GND
+      
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/mozok.jpg)
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/motor.jpg)
 
