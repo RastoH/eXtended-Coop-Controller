@@ -31,15 +31,27 @@ Door operation settings are programmable using Web App or REST-like API over the
  - Ambient Light Value (0% - total darknes to 100% - sunlight shining on sensor)
  - Door Control Settings
  - Freeze Protect Settings
+ - Quarantine
  - Door Status
  - System Status
  
-### System configuration (WEB) 
+### System configuration (WEB)
+ - Accessory
+ 	- hen light
+	- coop ligth
+	- with second motor shield
+		- fan
+		- heat
+		- water heat
+ - Door name
  - Security
  - NTP, RTC, DST, DST region - EU or US
  - WiFi network
  - [ThingSpeak](https://thingspeak.com/channels/636967)
  - Dynamic DNS (problem with my provider) in DEV version
+ - System info
+ - Web OTA
+ - Logging/debug output
  
 ### Proposal
 There are many things to think about when keeping chickens. You have to get up with the sunrise to let them out and put them in at sunset. 
@@ -55,7 +67,7 @@ The sunrise and sunset times in automatic mode are calculated every day on 0:00 
 - Flash LED every few seconds to indicate that the door is closed
 - Predator proof: Can’t be automaticaly open while closed
 
-The inside temperature,outside, watter temperature and ambient light are measured every second, these values are then uploaded every minute to ThingSpeak.  
+The inside, outside, water temperature and ambient light are measured every second, these values are then uploaded every minute to ThingSpeak.  
 
 A heat lamp (heater) is turned on if the coop gets too cold and a fan is turned on if it gets too hot.
  - heating is turned on if door is closed (or "even with the door is open" is turned on).
@@ -77,8 +89,8 @@ If you open the door manually with the pushbutton in the evening when the system
 - I2C motor driver shield
 	- WEMOS v1 (not tested, buggy, needs flash new firmware)
 	- [LOLIN v2 (tested) 15V max, 1.2A(average) / 3.2A (peak)](https://www.wemos.cc/en/latest/d1_mini_shield/motor.html), [AT8870 Motor Shield, 6.5-38V, 2A(average) / 3.6A (peak)](https://www.wemos.cc/en/latest/d1_mini_shield/at8870_motor.html), [HR8833 Motor Shield, 3-10V, 1.5A(average) / 2.5A (peak)](https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html)
-	- drv8830 (tested, deprecated)
-- DS18B20 - outside, indoor, watter temperatures
+	- ~~drv8830 (tested, deprecated)~~
+- DS18B20 - outside, indoor, water temperatures
 - LDR - ambient light intensity
 - [OLED 0.96 Shield (128x64 pixels) only in DEV version](https://www.wemos.cc/en/latest/d1_mini_shield/oled_0_96.html)
 - DS3231 RTC module (or DS3232) (NTP synced)
