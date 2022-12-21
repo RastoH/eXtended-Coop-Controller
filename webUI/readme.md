@@ -1,3 +1,8 @@
+***Latitude*** is a coordinate that specifies the north–south position of a point on the surface of the Earth or another celestial body
+
+***Longitude*** is a geographic coordinate that specifies the east–west position of a point on the surface of the Earth, or another celestial body
+
+
 ## REST API
 
 /state
