@@ -1,4 +1,7 @@
 # 1. Main page
+[1](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/main1.JPG)
+[2](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/main2.JPG)
+[3](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/main_without.JPG)
 
 # 2. Settings page
 ## 2.1 Door settings
@@ -25,22 +28,22 @@ The location of interest, in decimal degrees.
 ### 2.1.3 Quarantine
 
 ## 2.2 Accessory settings
-### 2.2.1 Hen light 
-### 2.2.2 Coop light 
-### 2.2.3 Vent Fan (Cooling)
-### 2.2.4 Hen light 
+#### 2.2.1.1 Hen light 
+#### 2.2.1.2 Coop light 
+#### 2.2.1.3 Vent Fan (Cooling)
+#### 2.2.1.4 Hen light 
 
-### 2.3 Water heater 
+### 2.2.2 Water heater 
 
-## 2.2 System config
+## 2.3 System config
 
-### 2.2.1 Door name
-### 2.2.2 Security
-### 2.2.3 Date-Time
-### 2.2.4 WiFi network
-### 2.2.5 ThingSpeak
+### 2.3.1 Door name
+### 2.3.2 Security
+### 2.4.3 Date-Time
+### 2.5.4 WiFi network
+### 2.6.5 ThingSpeak
 
-## 2.3 System info
+## 2.4 System info
 
 # 4. Update (web OTA)
 /update
