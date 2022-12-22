@@ -40,14 +40,21 @@ The location of interest, in decimal degrees.
 
 ### 2.3.1 Door name
 ### 2.3.2 Security
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/security.png)
 ### 2.4.3 Date-Time
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/date_time.png)
 ### 2.5.4 WiFi network
+![1](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/wifi_sta_client.png)
+![2](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/wifi_Client_State.png)
+![3](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/wifi_Soft-AP_State.png)
+![4](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/wifi_WiFi_State.png)
 ### 2.6.5 ThingSpeak
 
 ## 2.4 System info
 
 # 4. Update (web OTA)
 /update
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/thingspeak.png)
 
 # 5. REST API
 
