@@ -3,15 +3,15 @@
 # 2. Settings page
 ## 2.1 Door settings
 
-### 2.1.1 Door modes 
+#### 2.1.1 Door modes 
 
-### 2.1.1.1 Manual
+#### 2.1.1.1 Manual
 
-### 2.1.1.2 Light 
+#### 2.1.1.2 Light 
 
-### 2.1.1.3 Time
+#### 2.1.1.3 Time
 
-### 2.1.1.4 Automatic mode
+#### 2.1.1.4 Automatic mode
 The location of interest, in decimal degrees.    
 
 ***Latitude*** is a coordinate that specifies the north–south position of a point on the surface of the Earth or another celestial body.
