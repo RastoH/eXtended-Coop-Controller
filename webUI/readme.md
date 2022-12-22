@@ -32,8 +32,8 @@ The location of interest, in decimal degrees.
 #### 2.2.1.1 Hen light 
 #### 2.2.1.2 Coop light 
 #### 2.2.1.3 Vent Fan (Cooling)
-#### 2.2.1.4 Hen light 
-
+#### 2.2.1.4 Hen light
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/hen_light.png)
 ### 2.2.2 Water heater 
 
 ## 2.3 System config
