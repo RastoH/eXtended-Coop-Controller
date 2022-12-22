@@ -1,9 +1,27 @@
+#1. Main page
+
+#2. Settings page
+##2.1 Door settings
+
+### 2.1.1 Manual 
+
+### 2.1.2 Light 
+
+### 2.1.3 Time
+
+### 2.1.4 Automatic mode
+
+The location of interest, in decimal degrees.    
+
+
 ***Latitude*** is a coordinate that specifies the north–south position of a point on the surface of the Earth or another celestial body
+Latitude ranges	from -90 (south pole) to 90 (north pole).
 
 ***Longitude*** is a geographic coordinate that specifies the east–west position of a point on the surface of the Earth, or another celestial body
+Longitude ranges	from -180 (west of Greenwich) to 180 (east of Greenwich).
+  
 
-
-## REST API
+#3. REST API
 
 /state
 GET
