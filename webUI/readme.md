@@ -42,7 +42,7 @@ The location of interest, in decimal degrees.
 
 ## 2.3 System info
 
-#4. Update (web OTA)
+# 4. Update (web OTA)
 /update
 
 # 5. REST API
