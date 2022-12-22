@@ -1,7 +1,7 @@
 # 1. Main page
-[1](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/main1.JPG)
-[2](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/main2.JPG)
-[3](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/main_without.JPG)
+![1](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/main1.JPG)
+![2](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/main2.JPG)
+![3](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/main_without.JPG)
 
 # 2. Settings page
 ## 2.1 Door settings
