@@ -15,10 +15,10 @@
 The location of interest, in decimal degrees.    
 
 ***Latitude*** is a coordinate that specifies the north–south position of a point on the surface of the Earth or another celestial body.
-  Latitude ranges	from -90 (south pole) to 90 (north pole).
+> Latitude ranges	from -90 (south pole) to 90 (north pole).
 
 ***Longitude*** is a geographic coordinate that specifies the east–west position of a point on the surface of the Earth, or another celestial body.
-  Longitude ranges	from -180 (west of Greenwich) to 180 (east of Greenwich).
+ > Longitude ranges	from -180 (west of Greenwich) to 180 (east of Greenwich).
   
 ### 2.1.2 Freeze protect
 
