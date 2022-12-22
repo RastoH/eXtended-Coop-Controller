@@ -35,7 +35,7 @@ The location of interest, in decimal degrees.
 #### 2.2.1.4 Hen light
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/hen_light.png)
 ### 2.2.2 Water heater 
-
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/water_heater.jpg)
 ## 2.3 System config
 
 ### 2.3.1 Door name
