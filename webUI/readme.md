@@ -32,7 +32,20 @@ The location of interest, in decimal degrees.
 
 ### 2.3 Water heater 
 
-# 3. REST API
+## 2.2 System config
+
+### 2.2.1 Door name
+### 2.2.2 Security
+### 2.2.3 Date-Time
+### 2.2.4 WiFi network
+### 2.2.5 ThingSpeak
+
+## 2.3 System info
+
+#4. Update (web OTA)
+/update
+
+# 5. REST API
 
 /state
 GET
