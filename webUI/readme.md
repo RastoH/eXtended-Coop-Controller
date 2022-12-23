@@ -49,13 +49,14 @@ The location of interest, in decimal degrees.
 ![3](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/wifi_Soft-AP_State.png)
 ![4](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/wifi_WiFi_State.png)
 ### 2.6.5 ThingSpeak
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/thingspeak.png)
 
 ## 2.4 System info
 
 # 4. Update (web OTA)
-/update
-![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/thingspeak.png)
+**/update**
 
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/updater.png)
 # 5. REST API
 
 /state
