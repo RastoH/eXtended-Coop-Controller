@@ -15,7 +15,7 @@
 #### 2.1.1.3 Time
 
 #### 2.1.1.4 Automatic mode
-![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/door_mode_automatic.png)
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/door_mode_automatic.jpg)
 The location of interest, in decimal degrees.    
 
 ***Latitude*** is a coordinate that specifies the north–south position of a point on the surface of the Earth or another celestial body.
