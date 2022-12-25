@@ -25,8 +25,8 @@ Turn off, add second board and turn on. Addres stay 0x30.
  - First shield 
    - channel A 1-2 is used for motor.
    - channel B is used for leds, hen light has higher priority als coop light
-    - 1 -> coop light -> GND
-    - 2 -> hen light -> GND
+     - 1 -> coop light -> GND
+     - 2 -> hen light -> GND
  - Second shield
    - channel A
      - 1 si used for fan
