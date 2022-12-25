@@ -30,14 +30,14 @@ Turn off, add second board and turn on. Addres stay 0x30.
  - Second shield
    - channel A
      - 1 si used for fan
-      - 1 -> fan -> GND
+       - A1 -> fan -> GND
      - 2 is used for heater
-      - 2 -> heater -> GND
+       - A2 -> heater -> GND
    - channel B
      - 1 is used for water heater
-      - 1 -> wtr heater -> GND 
+       - 1 -> wtr heater -> GND 
      - 2 is for feeder (beta testing)
-      - 2 -> feeder -> GND
+       - 2 -> feeder -> GND
       
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/mozok.jpg)
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/motor.jpg)
@@ -46,6 +46,7 @@ Turn off, add second board and turn on. Addres stay 0x30.
 ### discontinued
  - Power supply voltage: VM=2.5VDC to 15.0V max
  - Output current: Iout=1.2A(average) / 3.2A (peak)
+ 
 ![1](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/Motorshields.png)
 ![2](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/hardware/motor_v1.0.0_set.jpg?raw=true)
 ### Video of the driver's work:
@@ -88,6 +89,7 @@ GND|-|-|GND
 ### firmware revision 1
  - Power supply voltage: VM=15V max (2.5VDC to 15.0V max)
  - Output current: Iout=1.2A(average) / 3.2A (peak)
+
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/motor_v2.0.0_1_16x16.jpg)
 https://www.wemos.cc/en/latest/d1_mini_shield/motor.html
 
@@ -95,6 +97,7 @@ https://www.wemos.cc/en/latest/d1_mini_shield/motor.html
 ### firmware revision 3
  - Power supply voltage: VM=3-10V
  - Output current: Iout=1.5A(average) / 2.5A (peak)
+
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/hr8833_v1.0.0_1_16x16.jpg)
 https://www.wemos.cc/en/latest/d1_mini_shield/hr8833_motor.html   
 https://aliexpress.com/item/1005003697301523.html   
@@ -103,6 +106,7 @@ https://aliexpress.com/item/1005003697301523.html
 ### firmware revision 4
  - Power supply voltage: VM=6.5-38V
  - Output current: Iout=2A(average) / 3.6A (peak)
+
 ![1](https://www.wemos.cc/en/latest/_static/d1_shields/at8870_v1.0.0_1_16x16.jpg)   
 https://www.wemos.cc/en/latest/d1_mini_shield/at8870_motor.html   
 https://aliexpress.com/item/1005003800396010.html   
