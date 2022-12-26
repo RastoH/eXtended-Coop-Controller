@@ -42,7 +42,7 @@ The location of interest, in decimal degrees.
 ### 2.3.2 Security
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/security.png)
 ### 2.4.3 Date-Time
-![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/date_time.jpg)
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/date-time.jpg)
 ### 2.5.4 WiFi network
 ![1](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/wifi_sta_client.png)
 ![2](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/wifi_Client_State.png)
