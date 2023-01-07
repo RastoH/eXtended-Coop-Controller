@@ -71,10 +71,6 @@ GET
 GET
   controller config
 
-/accessory
-GET
-  accessory settings
-
 /wifi
 /rescan
 GET
