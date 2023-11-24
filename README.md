@@ -80,7 +80,7 @@ The sunrise and sunset times in automatic mode are calculated every day on 0:00 
 - Prevent over-closing or over-opening
 - Can recover from power cut outs
 - Can recover from wifi chip reboots or network disruption
-- Flash LED every few seconds to indicate that the door is closed
+- Flash LED indicates every few seconds door state
 - Predator proof: Can’t be automaticaly open while closed
 
 The inside, outside, water temperature and ambient light are measured every second, these values are then uploaded every minute to ThingSpeak.  
