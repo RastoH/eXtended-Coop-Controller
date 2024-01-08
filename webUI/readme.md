@@ -52,7 +52,8 @@ The location of interest, in decimal degrees.
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/thingspeak.png)
 
 ## 2.4 System info
-### 2.4.1
+### 2.4.1 Thermometers
+#### assigning the thermometer to the measured location
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/Thermomoters.png)
 
 REST API GET -> http://192.168.0.43/temp?sensor1=2&sensor2=3&sensor3=1
