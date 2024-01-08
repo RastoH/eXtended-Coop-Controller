@@ -53,7 +53,7 @@ The location of interest, in decimal degrees.
 
 ## 2.4 System info
 ### 2.4.1
-![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/thermometers.png)
+![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/Thermomoters.png)]
 http://192.168.0.43/temp?sensor1=2&sensor2=3&sensor3=1
 # 4. Update (web OTA)
 **/update**
