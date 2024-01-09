@@ -57,6 +57,10 @@ The location of interest, in decimal degrees.
 ![image](https://github.com/RastoH/eXtended-Coop-Controller/blob/main/webUI/Thermomoters.png)
 
 REST API GET -> http://192.168.0.43/temp?sensor1=2&sensor2=3&sensor3=1
+
+Mainly needed when gradually adding sensors.
+Dallas temperature sensors DS18B20 are always detected at start-up according to the serial number in ascending order.
+
 # 4. Update (web OTA)
 **/update**
 
